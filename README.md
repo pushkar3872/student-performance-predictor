@@ -1,6 +1,6 @@
 # Student Performance Predictor
 
-*preject ready at https://student-performance-predictor-eight.vercel.app/ *
+*project ready at https://student-performance-predictor-eight.vercel.app/ *
 
 
 A full-stack, deployable machine learning web application predicting student performance (Pass/Fail) based on study hours, attendance, previous scores, and sleep hours.
