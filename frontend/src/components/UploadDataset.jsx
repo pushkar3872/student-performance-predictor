@@ -2,8 +2,7 @@ import { useState, useRef } from 'react';
 import axios from 'axios';
 import { UploadCloud, FileType, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
 import toast from 'react-hot-toast';
-
-const API_BASE_URL = 'http://localhost:8000';
+import { API_BASE_URL } from '../config/api';
 
 export default function UploadDataset({ onTrainSuccess }) {
   const [file, setFile] = useState(null);

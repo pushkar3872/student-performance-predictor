@@ -7,10 +7,12 @@ from ml_model import sp_model
 
 app = FastAPI(title="Student Performance Predictor API")
 
-# Allow all origins for the frontend
+FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:5173")
+
+# Allow specific origin for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[FRONTEND_URL],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
