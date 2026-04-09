@@ -1,0 +1,20 @@
+# Python Backend
+backend/venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/models/*.joblib
+*.pyc
+
+# Node Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# General Configs
+.env
+.DS_Store
+*.log
